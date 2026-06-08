@@ -1,0 +1,59 @@
+# Top-most EditorConfig file
+root = true
+
+# All files
+[*]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# C# files
+[*.cs]
+
+#### C# Formatting Rules ####
+
+# New line preferences (Allman Style Curly Braces)
+csharp_new_line_before_open_brace = all
+csharp_new_line_before_else = true
+csharp_new_line_before_catch = true
+csharp_new_line_before_finally = true
+csharp_new_line_before_members_in_object_initializers = true
+csharp_new_line_before_members_in_anonymous_types = true
+csharp_new_line_between_query_expression_clauses = true
+
+# Indentation preferences
+indent_size = 2
+indent_style = space
+
+# Using directives organization
+dotnet_sort_system_directives_first = true
+dotnet_separate_import_directive_groups = false
+
+#### C# Style Rules ####
+
+# var preferences: Use var when the type is obvious on the right side
+csharp_style_var_for_built_in_types = false:suggestion
+csharp_style_var_when_type_is_apparent = true:suggestion
+csharp_style_var_elsewhere = false:suggestion
+
+# Parentheses preferences
+dotnet_style_parentheses_in_arithmetic_binary_operators = always_for_clarity:silent
+dotnet_style_parentheses_in_other_binary_operators = always_for_clarity:silent
+
+#### Naming Conventions ####
+
+# Naming Rule: Private fields must start with an underscore _
+dotnet_naming_rule.private_fields_with_underscore.symbols = private_fields
+dotnet_naming_rule.private_fields_with_underscore.style = prefix_underscore
+dotnet_naming_rule.private_fields_with_underscore.severity = suggestion
+
+# Define private fields symbol group
+dotnet_naming_symbols.private_fields.applicable_kinds = field
+dotnet_naming_symbols.private_fields.applicable_accessibilities = private
+
+# Define underscore prefix styling
+dotnet_naming_style.prefix_underscore.required_prefix = _
+dotnet_naming_style.prefix_underscore.capitalization = camel_case

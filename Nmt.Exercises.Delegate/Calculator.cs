@@ -1,4 +1,4 @@
-﻿namespace Nmt.Exercises.Delegate
+namespace Nmt.Exercises.Delegate
 {
   public class Calculator
   {

@@ -1,4 +1,4 @@
-﻿namespace Nmt.Exercises.Delegate_03
+namespace Nmt.Exercises.Delegate_03
 {
   public class TemperatureSensor
   {
