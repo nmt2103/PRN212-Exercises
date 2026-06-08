@@ -1,4 +1,4 @@
-﻿namespace Nmt.Exercises.Delegate_02
+namespace Nmt.Exercises.Delegate_02
 {
   public class NumberFilter
   {

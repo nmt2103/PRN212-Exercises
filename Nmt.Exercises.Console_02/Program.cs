@@ -1,4 +1,4 @@
-﻿namespace Nmt.Exercises.Console_02
+namespace Nmt.Exercises.Console_02
 {
   internal class Program
   {

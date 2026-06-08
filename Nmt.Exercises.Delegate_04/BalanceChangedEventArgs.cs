@@ -1,4 +1,4 @@
-﻿namespace Nmt.Exercises.Delegate_04
+namespace Nmt.Exercises.Delegate_04
 {
   public class BalanceChangedEventArgs : EventArgs
   {
