@@ -2,31 +2,33 @@ name: .NET Build
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   pull_request:
-    branches: [ "main" ]
+    branches: ["main"]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: read
+
     steps:
-    # 1. Download code onto the virtual runner
-    - name: Checkout Code
-      uses: actions/checkout@v4
+      # 1. Download code onto the virtual runner
+      - name: Checkout Code
+        uses: actions/checkout@v4
 
-    # 2. Install the C#/.NET compiler environment
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v4
-      with:
-        dotnet-version: 8.0.x # Matches the #C SDK used in this repository
-    # 3. Restore any NuGet packages
-    - name: Restore dependencies
-      run: dotnet restore
+      # 2. Install the C#/.NET compiler environment
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x # Matches the #C SDK used in this repository
+      # 3. Restore any NuGet packages
+      - name: Restore dependencies
+        run: dotnet restore
 
-    # 4. Compile the solution to verify it works
-    - name: Build Solution
-      run: dotnet build --no-restore --configuration Release
-    - name: Test
-      run: dotnet test --no-build --verbosity normal
+      # 4. Compile the solution to verify it works
+      - name: Build Solution
+        run: dotnet build --no-restore --configuration Release
+      - name: Test
+        run: dotnet test --no-build --verbosity normal
