@@ -5,6 +5,7 @@
   <Project Path="Nmt.Exercises.Delegate_02/Nmt.Exercises.Delegate_02.csproj" Id="eb8103a0-f6c3-421a-a2a1-5ae31768aadc" />
   <Project Path="Nmt.Exercises.Delegate_03/Nmt.Exercises.Delegate_03.csproj" Id="e2d55a89-b5c0-4b2f-97a4-dc533c6f3199" />
   <Project Path="Nmt.Exercises.Delegate_04/Nmt.Exercises.Delegate_04.csproj" Id="49d09cdd-03de-4aed-a22c-88ad35ca202b" />
-  <Project Path="Nmt.Exercises.DesignPattern_01/Nmt.Exercises.DesignPattern_01.csproj" Id="32aca1d7-bc8c-471c-80fb-4fa4a9d548ec" />
-  <Project Path="Nmt.Exercises.DesignPattern_02/Nmt.Exercises.DesignPattern_02.csproj" Id="b498bc8f-da5f-455b-80f1-0befe4d0fd0e" />
+  <Project Path="Nmt.Exercises.DesignPattern_01/Nmt.Exercises.DesignPattern_01.csproj" />
+  <Project Path="Nmt.Exercises.DesignPattern_02/Nmt.Exercises.DesignPattern_02.csproj" />
+  <Project Path="Nmt.Exercises.DesignPattern_03/Nmt.Exercises.DesignPattern_03.csproj" />
 </Solution>
