@@ -10,4 +10,5 @@
   <Project Path="Nmt.Exercises.DesignPattern_03/Nmt.Exercises.DesignPattern_03.csproj" />
   <Project Path="Nmt.Exercises.Generic_01/Nmt.Exercises.Generic_01.csproj" Id="e6ba799f-a0d7-4cdf-bbcf-98b92f42f54f" />
   <Project Path="Nmt.Exercises.Generic_02/Nmt.Exercises.Generic_02.csproj" Id="cc98a829-a289-4b44-844d-877c73db2fc4" />
+  <Project Path="Nmt.Exercises.Generic_03/Nmt.Exercises.Generic_03.csproj" Id="3b0eb4ed-09b2-4b52-9017-9e0fcb30abae" />
 </Solution>
