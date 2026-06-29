@@ -11,7 +11,7 @@ namespace Nmt.Exercises.LINQ_02
 
     public override string? ToString()
     {
-      return base.ToString();
+      return $"Id: {Id} - {Name} - Age: {Age} - {Address} - {City} - Salary: {Salary}";
     }
   }
 }
