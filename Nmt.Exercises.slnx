@@ -14,4 +14,5 @@
   <Project Path="Nmt.Exercises.LINQ_01/Nmt.Exercises.LINQ_01.csproj" Id="d7a45418-0440-47c6-bb45-40b52ae7aaa6" />
   <Project Path="Nmt.Exercises.LINQ_02/Nmt.Exercises.LINQ_02.csproj" Id="eb8fa23f-8679-44d2-ab3e-8f05872a84dd" />
   <Project Path="Nmt.Exercises.OOP_01/Nmt.Exercises.OOP_01.csproj" Id="e02031da-0618-42ec-822b-a8973cd9df94" />
+  <Project Path="Nmt.Exercises.OOP_02/Nmt.Exercises.OOP_02.csproj" Id="1e3e207c-ec32-423b-97c8-cd8038708d36" />
 </Solution>
